@@ -1,0 +1,13 @@
+.navbarContainer {
+    background: transparent;
+}
+
+.navbar_brand {
+    color: aliceblue;
+    font-family: "Bookman Old Style";
+}
+
+#navbarSupportedContent > ul > li > a {
+    color: aliceblue;
+    padding: 1.5rem;
+}
