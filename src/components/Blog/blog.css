@@ -1,0 +1,9 @@
+.blogContainer {
+    background-color: aliceblue;
+    color: black;
+    height: 150vh;
+}
+
+section {
+    padding-top: 0;
+}

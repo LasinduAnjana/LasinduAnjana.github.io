@@ -2,11 +2,12 @@ import React, {Component} from 'react';
 import {FaFacebook} from 'react-icons/fa'
 import {IoLogoTwitter} from 'react-icons/io'
 import {FiInstagram} from 'react-icons/fi'
+import {Link} from "react-router-dom";
 
 class Footer extends Component {
     render() {
         return (
-            <footer className="container-fluid justify-content-center p-5">
+            <footer className="container p-5">
                 <a href="#" className='text-light'>Lasindu Anjana</a>
 
                 <div className="footer__socials">
