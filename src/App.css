@@ -4,6 +4,11 @@
   background-image: linear-gradient(to top right, #063968, #063968, #010A27);
   background-attachment: fixed;
   min-height: 100vh;
-  height: 100%;
+  height: max-content;
+  /*position: relative;*/
 }
 
+/*footer {*/
+/*  position: absolute;*/
+/*  bottom: 0;*/
+/*}*/

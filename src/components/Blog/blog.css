@@ -1,15 +1,31 @@
 .blogContainer {
-    background-color: aliceblue;
     color: black;
-    height: 150vh;
+    min-height: 100vh;
 }
 
 .articleContainer {
-    display: flex;
-    justify-content: center;
-    padding: 3rem;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 1.5rem;
+    padding: 1.5rem;
+    /*padding: 0 3rem;*/
 }
 
 section {
     padding-top: 0;
+}
+
+
+/* ********* media queries (medium devices) ******** */
+@media screen and (max-width : 1024px) {
+    .articleContainer {
+        grid-template-columns: 1fr 1fr;
+    }
+}
+
+/* ********* media queries (medium devices) ******** */
+@media screen and (max-width : 600px) {
+    .articleContainer {
+        grid-template-columns: 1fr;
+    }
 }

@@ -1,25 +1,52 @@
 .article-card {
     overflow: hidden;
-    height: 22rem;
-    width: 20rem;
+    height: 32rem;
+    /*width: 24rem;*/
     border: 1px solid lightblue;
     border-radius: 0.7rem;
     position: relative;
 }
 
+.article {
+    max-height: 14rem;
+    overflow: hidden;
+    padding-bottom: 3rem;
+    text-overflow: ellipsis;
+}
+
+.articleText {
+    margin: 1rem;
+    color: lightgray;
+    font-size: 1.2rem;
+    overflow: hidden;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 3; /* start showing ellipsis when 3rd line is reached */
+    white-space: pre-wrap; /* let the text wrap preserving spaces */
+}
+
 .articleCover {
-    height: 10rem;
+    height: 15rem;
     width: 100%;
     object-fit: cover;
     overflow: hidden;
 }
 
 .articleHeader {
+    font-size: 2rem;
+    color: aliceblue;
     text-align: center
 }
 
 .author {
     position: absolute;
     bottom: 0;
-    right: 0;
+    right: 1rem;
+}
+
+/* ********* media queries (medium devices) ******** */
+@media screen and (max-width : 600px) {
+    .article-card {
+        height: min-content;
+    }
 }

@@ -16,19 +16,19 @@ class ContactSection extends Component {
                         <article className='contact__option'>
                             <MdOutlineEmail className='contact__option-icon'/>
                             <h4>Email</h4>
-                            <h6>johnDoe@example.com</h6>
+                            <h6>lasindua@gmail.com</h6>
                             <a href="mailto:lasindua@gmail.com">Send a message</a>
                         </article>
                         <article className='contact__option'>
                             <RiMessengerLine className='contact__option-icon' />
                             <h4>Massenger</h4>
-                            <h6>johnDoe</h6>
+                            <h6>lasindu Anjana Karunarathna</h6>
                             <a href="https://m.me/lasindu.anjana.1" target="_blank">Send a message</a>
                         </article>
                         <article className='contact__option'>
                             <BsWhatsapp className='contact__option-icon' />
                             <h4>Whatsapp</h4>
-                            <h6>johnDoe</h6>
+                            <h6>Lasindu</h6>
                             <a href="https://api.whatsapp.com/send?phone=+94771999721" target="_blank">Send a message</a>
                         </article>
                     </div>

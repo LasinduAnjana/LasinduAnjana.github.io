@@ -70,7 +70,7 @@ const AddNewArticle = () => {
                 <div className="input-group mt-3">
                     <label htmlFor="articleText" className='p-2'>Write your article here</label>
                     <textarea
-                        className="form-control"
+                        // className="form-control"
                         aria-label="With textarea"
                         rows='20'
                         value={articleText}
