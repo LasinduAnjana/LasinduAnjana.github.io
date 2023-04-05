@@ -4,6 +4,12 @@
     height: 150vh;
 }
 
+.articleContainer {
+    display: flex;
+    justify-content: center;
+    padding: 3rem;
+}
+
 section {
     padding-top: 0;
 }

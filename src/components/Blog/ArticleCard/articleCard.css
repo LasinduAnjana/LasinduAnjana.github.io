@@ -1,0 +1,25 @@
+.article-card {
+    overflow: hidden;
+    height: 22rem;
+    width: 20rem;
+    border: 1px solid lightblue;
+    border-radius: 0.7rem;
+    position: relative;
+}
+
+.articleCover {
+    height: 10rem;
+    width: 100%;
+    object-fit: cover;
+    overflow: hidden;
+}
+
+.articleHeader {
+    text-align: center
+}
+
+.author {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}

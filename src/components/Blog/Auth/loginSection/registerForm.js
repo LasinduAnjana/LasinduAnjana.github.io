@@ -7,12 +7,8 @@ const RegisterForm = () => {
     const [password, setPassword] = useState('');
     const [password2, setPassword2] = useState('');
 
-    const [register, setRegister] = useState(false);
-
     const handleSubmit = (event) => {
         event.preventDefault()
-
-        console.log(name + " " + email + " " + password)
 
         const configuration = {
             method: 'post',
@@ -29,7 +25,7 @@ const RegisterForm = () => {
         // make the API call
         axios(configuration)
             .then((result) => {
-                setRegister(true);
+
             })
             .catch((error) => {
                 error = new Error();

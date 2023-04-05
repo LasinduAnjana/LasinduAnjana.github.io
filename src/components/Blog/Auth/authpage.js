@@ -3,9 +3,19 @@ import {Tab, TabList, TabPanel, Tabs} from "react-tabs";
 import './authPage.css'
 import LoginForm from "./loginSection/loginForm";
 import RegisterForm from "./loginSection/registerForm";
+import Cookies from "universal-cookie";
+import {Navigate} from "react-router-dom";
+const cookies = new Cookies()
+
+const token = cookies.get("TOKEN")
+
 
 const Authpage = () => {
         const [tabIndex, setTabIndex] = useState(0);
+
+        if (token) {
+            return <Navigate to='/blog' />
+        }
 
     return (
             <div className='container'>

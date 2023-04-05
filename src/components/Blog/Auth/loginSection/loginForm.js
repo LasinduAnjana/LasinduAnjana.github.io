@@ -7,8 +7,6 @@ const LoginForm = () => {
     const [email, setEmail] = useState('');
     const [password, setPassword] = useState('');
 
-    const [register, setRegister] = useState(false);
-
     async function login(event) {
         event.preventDefault()
 
@@ -27,10 +25,9 @@ const LoginForm = () => {
         // make the API call
         axios(configuration)
             .then((result) => {
-                setRegister(true);
                 // set the cookie
                 cookies.set("TOKEN", result.data.token, {
-                    path: "/blog/",
+                    path: "/blog",
                 });
                 // redirect user to the auth page
                 window.location.href = "/blog";
@@ -38,7 +35,6 @@ const LoginForm = () => {
             .catch((error) => {
                 error = new Error();
             });
-
     }
 
     return (

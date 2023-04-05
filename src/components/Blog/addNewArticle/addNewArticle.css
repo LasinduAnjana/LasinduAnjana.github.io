@@ -1,0 +1,6 @@
+.newArticleContainer {
+    background-color: aliceblue;
+    color: black;
+    height: min-content;
+    padding: 2rem;
+}
