@@ -24,10 +24,10 @@ class NavBar extends Component {
 
                                     <li className="nav-item">
                                         {/*<a className="nav-link" href="/blog">Blog</a>*/}
-                                        <Link className='nav-link' to='/blog'>Blog</Link>
+                                        <Link className='nav-link' to='#Blog'>Blog(WIP)</Link>
                                     </li>
                                     <li className="nav-item">
-                                        <a className="nav-link" href="#">Project Request ></a>
+                                        <a className="nav-link" href="#">Project Request &gt</a>
                                     </li>
                                 </ul>
                             </div>
