@@ -27,7 +27,7 @@ class NavBar extends Component {
                                         <Link className='nav-link' to='#Blog'>Blog(WIP)</Link>
                                     </li>
                                     <li className="nav-item">
-                                        <a className="nav-link" href="#">Project Request &gt</a>
+                                        <a className="nav-link" href="#">Project Request ></a>
                                     </li>
                                 </ul>
                             </div>
