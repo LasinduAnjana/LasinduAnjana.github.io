@@ -7,7 +7,7 @@ import './contactSection.css'
 class ContactSection extends Component {
     render() {
         return (
-            <section className="row">
+            <section className="row" id='contact'>
                 <h6>Get in Touch</h6>
                 <h2 className="text-primary">Contact Me</h2>
 
